@@ -1,5 +1,4 @@
--- Gui to Lua
--- Version: 3.2
+-- Skidded shit ngl
 
 -- Instances:
 
@@ -109,12 +108,6 @@ local chr = game.Players.LocalPlayer.Character
 local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
 
 nowe = false
-
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-    Title = "GO SUB TO HIM";
-    Text = "fly gui by me_ozoneYT";
-    Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
-Duration = 16;
 
 Frame.Active = true -- main = gui
 Frame.Draggable = true

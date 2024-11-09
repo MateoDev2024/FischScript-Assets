@@ -117,7 +117,8 @@ local aa = {
         local n, o = j:GetMouse(), d
         local p, q, r, s = e(o.Creator), e(o.Elements), e(o.Acrylic), o.Components
         local t, u = e(s.Notification), p.New
-        local w = u("SigmaGUI", {Parent = game:GetService "CoreGui"})
+        local w = u("ScreenGui", {Parent = game:GetService "CoreGui"})
+        w.Name = "EpicGui"
         t:Init(w)
         local x = {
             Version = "1.1.0",

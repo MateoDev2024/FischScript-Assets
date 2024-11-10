@@ -118,7 +118,7 @@ local aa = {
         local p, q, r, s = e(o.Creator), e(o.Elements), e(o.Acrylic), o.Components
         local t, u, v = e(s.Notification), p.New, protectgui or (syn and syn.protect_gui) or function()
                 end
-        local w = u("ScreenGui", {Name = "EpicGui", Parent = game:GetService("CoreGui")})
+        local w = u("ScreenGui", {Name = "RobloxGui_", Parent = game:GetService("CoreGui")})
         t:Init(w)
         local x = {
             Version = "1.1.0",

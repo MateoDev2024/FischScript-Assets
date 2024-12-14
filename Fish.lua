@@ -1,4 +1,11 @@
+-- Decompiler will be improved soon!
+-- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/wyButjTMhM)
+-- Decompiled on 2024-12-14 11:56:36
+-- Luau version 6, Types version 3
+-- Time taken: 0.161168 seconds
+
 local fish = game:GetService("ReplicatedStorage"):WaitForChild("resources"):WaitForChild("animations"):WaitForChild("fish")
+local module = require(script:WaitForChild("presents"))
 local tbl = {
 	["Desolate Deep"] = {
 		Trash = 22;
@@ -501,6 +508,7 @@ local module_upvr = {
 		Seasons = {"None"};
 		Weather = {"None"};
 		Quips = {"Woah a bone!"};
+		HoldAnimation = fish:WaitForChild("bigbasic");
 		SparkleColor = Color3.fromRGB(126, 124, 123);
 		FromLimited = "Archeological Site";
 	};
@@ -5046,6 +5054,297 @@ local module_upvr = {
 		HoldAnimation = fish:WaitForChild("basic");
 		FromLimited = "Fischgiving";
 	};
+	Icicle = {
+		WeightPool = {4, 12};
+		Chance = 1;
+		Rarity = "Limited";
+		Resilience = 100;
+		Description = "A strong and frigid ice formation with a pointy end.";
+		Hint = "???";
+		FavouriteBait = "Holly Berry";
+		FavouriteTime = nil;
+		Price = 130;
+		XP = 60;
+		Seasons = {"None"};
+		Weather = {"None"};
+		Quips = {"Woah, an Icicle!"};
+		SparkleColor = Color3.fromRGB(66, 236, 255);
+		HoldAnimation = fish:WaitForChild("tiny");
+		FromLimited = "Fischmas";
+	};
+	["Basic Present"] = {
+		WeightPool = {90, 90};
+		Chance = 9;
+		Rarity = "Limited";
+		Resilience = 60;
+		Description = "A nice christmas present wrapped in white and red gift paper. Maybe it has some goodies inside!";
+		Hint = "Only can be caught during Fischmas24.";
+		FavouriteBait = "Magnet";
+		FavouriteTime = nil;
+		Price = 120;
+		XP = 40;
+		Seasons = {"None"};
+		Weather = {"None"};
+		Quips = {"A Present!", "Woah! A Present!", "It's my lucky day!"};
+		SparkleColor = Color3.fromRGB(255, 255, 255);
+		HoldAnimation = fish:WaitForChild("crate");
+		IsCrate = true;
+		CrateType = "FishAndCoins";
+		FishContents = module.Basic;
+		CoinContents = {30, 50};
+		FromLimited = "Fischmas";
+	};
+	["Unique Present"] = {
+		WeightPool = {90, 90};
+		Chance = 4;
+		Rarity = "Limited";
+		Resilience = 50;
+		Description = "A nice christmas present wrapped in white and teal gift paper. Maybe it has some better goodies inside!";
+		Hint = "Only can be caught during Fischmas24.";
+		FavouriteBait = "Magnet";
+		FavouriteTime = nil;
+		Price = 180;
+		XP = 55;
+		Seasons = {"None"};
+		Weather = {"None"};
+		Quips = {"A Present!", "Woah! A Present!", "It's my lucky day!"};
+		SparkleColor = Color3.fromRGB(255, 255, 255);
+		HoldAnimation = fish:WaitForChild("crate");
+		IsCrate = true;
+		CrateType = "FishAndCoins";
+		FishContents = module.Unique;
+		CoinContents = {90, 130};
+		FromLimited = "Fischmas";
+	};
+	["Supreme Present"] = {
+		WeightPool = {90, 90};
+		Chance = 0.4;
+		Rarity = "Limited";
+		Resilience = 45;
+		Description = "A gistening christmas present wrapped in magical gift paper. Maybe it has some great goodies inside!";
+		Hint = "Only can be caught during Fischmas24.";
+		FavouriteBait = "Magnet";
+		FavouriteTime = nil;
+		Price = 650;
+		XP = 120;
+		Seasons = {"None"};
+		Weather = {"None"};
+		Quips = {"A Present!", "Woah! A Present!", "It's my lucky day!"};
+		SparkleColor = Color3.fromRGB(99, 255, 151);
+		HoldAnimation = fish:WaitForChild("crate");
+		IsCrate = true;
+		CrateType = "FishAndCoins";
+		FishContents = module.Supreme;
+		CoinContents = {450, 800};
+		FromLimited = "Fischmas";
+	};
+	["Festive Bait Crate"] = {
+		WeightPool = {80, 80};
+		Chance = 2.5;
+		Rarity = "Limited";
+		Resilience = 90;
+		Description = "A festive wooden crate with patterend fabric over top to preserve the bait inside. Seems like it fell off of santa's sleigh! Opening it might give you an array of jolly baits!";
+		Hint = "Only can be caught during Fischmas24.";
+		FavouriteBait = "Magnet";
+		FavouriteTime = nil;
+		BuyMult = 2.3;
+		Price = 500;
+		XP = 300;
+		Seasons = {"None"};
+		Weather = {"None"};
+		Quips = {"A Crate of Festive Bait!", "A Festive Bait Crate!", "Woah! A Crate!", "A Crate!", "Who left this here?", "Oh, the worms still moving?", "A Crate full of Jolly Bait!"};
+		SparkleColor = Color3.fromRGB(255, 255, 255);
+		HoldAnimation = fish:WaitForChild("crate");
+		FromLimited = "Fischmas";
+		IsCrate = true;
+		CrateType = "Bait";
+		BaitContents = {"Peppermint Worm", "Holly Berry"};
+	};
+	Cookie = {
+		WeightPool = {1, 6};
+		Chance = 90;
+		Rarity = "Limited";
+		Resilience = 100;
+		Description = "A delicious cookie, favored by Santa Claus. Goes well together with a warm glass of milk.";
+		Hint = "Only can be caught during Fischmas24.";
+		FavouriteBait = "Holly Berry";
+		FavouriteTime = nil;
+		Price = 20;
+		XP = 9;
+		Seasons = {"None"};
+		Weather = {"None"};
+		Quips = {"Woah, a Cookie!", "Om nom nom"};
+		SparkleColor = Color3.fromRGB(225, 166, 115);
+		HoldAnimation = fish:WaitForChild("tiny");
+		FromLimited = "Fischmas";
+	};
+	["Glass of Milk"] = {
+		WeightPool = {1, 6};
+		Chance = 90;
+		Rarity = "Limited";
+		Resilience = 100;
+		Description = "A delicious glass of milk, favored by Santa Claus. Goes well together with a cookie.";
+		Hint = "Only can be caught during Fischmas24.";
+		FavouriteBait = "Peppermint Worm";
+		FavouriteTime = nil;
+		Price = 20;
+		XP = 9;
+		Seasons = {"None"};
+		Weather = {"None"};
+		Quips = {"Woah, a Glass of Milk!", "Yum!"};
+		SparkleColor = Color3.fromRGB(231, 231, 231);
+		HoldAnimation = fish:WaitForChild("tiny");
+		FromLimited = "Fischmas";
+	};
+	["Candy Cane Carp"] = {
+		WeightPool = {10, 50};
+		Chance = 60;
+		Rarity = "Limited";
+		Resilience = 70;
+		Description = "Candy Cane Carps are an interesting Fischmas fish. They exhibit coloration like that of a candy cane, as well as having a bunch of candy canes sticking out all round their body. They also taste like peppermint!";
+		Hint = "Only can be caught during Fischmas24.";
+		FavouriteBait = "Peppermint Worm";
+		FavouriteTime = "Day";
+		Price = 75;
+		XP = 85;
+		Seasons = {"Winter"};
+		Weather = {"None"};
+		Quips = {"Woah, a Candy Cane Carp!", "It's a Candy Cane Carp!", "Woahh! This is bigger than I thought.", "Carp-tastic!", "!!!", "Woah!", "A Candy Cane Carp! My skill are sharp!", "Candy Cane Carp Tuah!"};
+		SparkleColor = Color3.fromRGB(255, 117, 117);
+		HoldAnimation = fish:WaitForChild("basic");
+		FromLimited = "Fischmas";
+	};
+	["Santa Salmon"] = {
+		WeightPool = {80, 200};
+		Chance = 50;
+		Rarity = "Limited";
+		Resilience = 70;
+		Description = "Santa Salmons are very old and heavy salmons. They also possess a jolly santa hat and a long white beard. How festive!";
+		Hint = "Only can be caught during Fischmas24.";
+		FavouriteBait = "Holly Berry";
+		FavouriteTime = nil;
+		Price = 120;
+		XP = 130;
+		Seasons = {"Spring", "Winter"};
+		Weather = {"Rain", "Clear"};
+		Quips = {"A Santa Salmon!", "Woah, A Santa Salmon!", "A Santa Salmon!!!", "Ho-ho-ho!"};
+		SparkleColor = Color3.fromRGB(154, 218, 143);
+		HoldAnimation = fish:WaitForChild("basic");
+		FromLimited = "Fischmas";
+	};
+	["Gingerbread Fish"] = {
+		WeightPool = {20, 35};
+		Chance = 20;
+		Rarity = "Limited";
+		Resilience = 50;
+		Description = "A gingerbread cookie that was decorated with frosting and gumdrops to look like a fish. It seems to have come to life. Also makes for a yummy snack!";
+		Hint = "Only can be caught during Fischmas24.";
+		FavouriteBait = "Peppermint Worm";
+		FavouriteTime = nil;
+		Price = 135;
+		XP = 150;
+		Seasons = {"Winter"};
+		Weather = {"Clear"};
+		Quips = {"Woah, a Gingerbread Fish!", "No way! A Gingerbread Fish!", "I caught a Gingerbread Fish!", "You can't catch me, I'm the Gingerbread Fish!"};
+		SparkleColor = Color3.fromRGB(165, 89, 54);
+		HoldAnimation = fish:WaitForChild("small");
+		FromLimited = "Fischmas";
+	};
+	["Ornament Fish"] = {
+		WeightPool = {3, 7};
+		Chance = 15;
+		Rarity = "Limited";
+		Resilience = 80;
+		ProgressEfficiency = 0.95;
+		Description = "An decorative ornament in the shape of a fish. Seems to exhibit signs of low intelligence.";
+		Hint = "Only can be caught during Fischmas24.";
+		FavouriteBait = "Holly Berry";
+		FavouriteTime = nil;
+		Price = 140;
+		XP = 165;
+		Seasons = {"Autumn"};
+		Weather = {"None"};
+		Quips = {"Woah, an Ornament!", "Ouu! An Ornament Fish!"};
+		SparkleColor = Color3.fromRGB(225, 50, 62);
+		HoldAnimation = fish:WaitForChild("tiny");
+		FromLimited = "Fischmas";
+	};
+	["Snowflake Flounder"] = {
+		WeightPool = {15, 55};
+		Chance = 10;
+		Rarity = "Limited";
+		Resilience = 80;
+		Description = "A very cold Flounder with a unique snowflake-like pattern on its body. Beware when holding - it's freezing cold!";
+		Hint = "Only can be caught during Fischmas24.";
+		FavouriteBait = "Peppermint Worm";
+		FavouriteTime = "Night";
+		Price = 145;
+		XP = 180;
+		Seasons = {"None"};
+		Weather = {"Rainy"};
+		Quips = {"A Snowflake Flounder!", "A Snowflake!", "I caught a Snowflake Flounder!"};
+		SparkleColor = Color3.fromRGB(137, 205, 236);
+		HoldAnimation = fish:WaitForChild("tiny");
+		FromLimited = "Fischmas";
+	};
+	Olmdeer = {
+		WeightPool = {1, 4};
+		Chance = 2;
+		Rarity = "Limited";
+		Resilience = 75;
+		ProgressEfficiency = 0.9;
+		Description = "The Olmdeer is a unique species of Olm, possessing two antlers on its head like those of a reindeer, hence its name. They have been heard to lead Santa's sleigh through the night sky.";
+		Hint = "Only can be caught during Fischmas24.";
+		FavouriteBait = "Holly Berry";
+		FavouriteTime = "Night";
+		Price = 400;
+		XP = 300;
+		Seasons = {"None"};
+		Weather = {"Clear", "Foggy"};
+		Quips = {"An Olmdeer!", "I caught an Olmdeer!", "Olm.. my gosh!        deer", "An Olmdeer!!", "Woah, an Olmdeer!", "It looks like a recorder.. but jolly!"};
+		SparkleColor = Color3.fromRGB(138, 108, 96);
+		HoldAnimation = fish:WaitForChild("tiny");
+		ViewportSizeOffset = 2;
+		FromLimited = "Fischmas";
+	};
+	["Santa Pufferfish"] = {
+		WeightPool = {8, 25};
+		Chance = 0.1;
+		Rarity = "Limited";
+		Resilience = 50;
+		ProgressEfficiency = 0.875;
+		Description = "A pufferfish, but with a santa hat! How jolly!";
+		Hint = "Only can be caught during Fischmas24.";
+		FavouriteBait = "Peppermint Worm";
+		FavouriteTime = "Night";
+		Price = 2000;
+		XP = 1200;
+		Seasons = {"Winter"};
+		Weather = {"Foggy"};
+		Quips = {"Woah! a Santa Pufferfish!", "A Santa Pufferfish!", "Woah, A Santa Pufferfish!", "Ho-ho-ho!"};
+		SparkleColor = Color3.fromRGB(255, 16, 16);
+		HoldAnimation = fish:WaitForChild("small");
+		FromLimited = "Fischmas";
+	};
+	["Northstar Serpent"] = {
+		WeightPool = {140000, 200000};
+		Chance = 0.02;
+		Rarity = "Limited";
+		Resilience = 10;
+		ProgressEfficiency = 0.1;
+		Description = "The Northstar Serpent is an insanely large and menacing sea serpent species. They have a long and spiny body, with bioluminescent fins throught it. Near their heads, they have six large tentacle-like appendages, which are spun in a screw motion to move at incredible speeds. Attempting to catch the Northstar Serpent will almost always result in catastrophe, those who are capable of hooking and catching such a formidable beast are truly legendary anglers.";
+		Hint = "???";
+		FavouriteBait = "Holly Berry";
+		FavouriteTime = "None";
+		Price = 20000;
+		XP = 5000;
+		Seasons = {"None"};
+		Weather = {"Foggy"};
+		Quips = {"A NORTHSTAR SERPENT!!", "IT'S HEAVY!", "WHAT IS THIS THING?!", "WOAH!!!", "SERPENT!!!!!"};
+		SparkleColor = Color3.fromRGB(255, 237, 137);
+		HoldAnimation = fish:WaitForChild("heavy");
+		FromLimited = "Fischmas";
+	};
 	Rarities = {"Trash", "Common", "Uncommon", "Unusual", "Rare", "Legendary", "Mythical", "Divine", "Exotic", "Relic", "Fragment", "Gemstone", "Limited"};
 	RarityColours = {
 		Trash = Color3.fromRGB(145, 145, 145);
@@ -5063,20 +5362,23 @@ local module_upvr = {
 		Gemstone = Color3.fromRGB(172, 57, 255);
 	};
 }
-function module_upvr.ToInteger(arg1, arg2) -- Line 5429
+function module_upvr.ToInteger(arg1, arg2) -- Line 5732
 	return math.floor(arg2.r * 255) * 65536 + math.floor(arg2.g * 255) * 256 + math.floor(arg2.b * 255)
 end
-function module_upvr.ToHex(arg1, arg2) -- Line 5433
+function module_upvr.ToHex(arg1, arg2) -- Line 5736
+	--[[ Upvalues[1]:
+		[1]: module_upvr (readonly)
+	]]
 	local any_ToInteger_result1 = module_upvr:ToInteger(arg2)
-	local var1377
+	local var1457
 	repeat
-		local var1378 = any_ToInteger_result1 % 16
-		local tostring_result1 = tostring(var1378)
-		if 10 <= var1378 then
-			tostring_result1 = ({'A', 'B', 'C', 'D', 'E', 'F'})[1 + var1378 - 10]
+		local var1458 = any_ToInteger_result1 % 16
+		local tostring_result1 = tostring(var1458)
+		if 10 <= var1458 then
+			tostring_result1 = ({'A', 'B', 'C', 'D', 'E', 'F'})[1 + var1458 - 10]
 		end
-		var1377 = var1377..tostring_result1
+		var1457 = var1457..tostring_result1
 	until math.floor(any_ToInteger_result1 / 16) <= 0
-	return '#'..string.reverse(var1377)
+	return '#'..string.reverse(var1457)
 end
 return module_upvr

@@ -5,7 +5,6 @@
 -- Time taken: 0.161168 seconds
 
 local fish = game:GetService("ReplicatedStorage"):WaitForChild("resources"):WaitForChild("animations"):WaitForChild("fish")
-local module = require(script:WaitForChild("presents"))
 local tbl = {
 	["Desolate Deep"] = {
 		Trash = 22;
@@ -5090,7 +5089,6 @@ local module_upvr = {
 		HoldAnimation = fish:WaitForChild("crate");
 		IsCrate = true;
 		CrateType = "FishAndCoins";
-		FishContents = module.Basic;
 		CoinContents = {30, 50};
 		FromLimited = "Fischmas";
 	};
@@ -5112,7 +5110,6 @@ local module_upvr = {
 		HoldAnimation = fish:WaitForChild("crate");
 		IsCrate = true;
 		CrateType = "FishAndCoins";
-		FishContents = module.Unique;
 		CoinContents = {90, 130};
 		FromLimited = "Fischmas";
 	};
@@ -5134,7 +5131,6 @@ local module_upvr = {
 		HoldAnimation = fish:WaitForChild("crate");
 		IsCrate = true;
 		CrateType = "FishAndCoins";
-		FishContents = module.Supreme;
 		CoinContents = {450, 800};
 		FromLimited = "Fischmas";
 	};

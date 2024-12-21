@@ -4,7 +4,18 @@
 -- Luau version 6, Types version 3
 -- Time taken: 0.185614 seconds
 
-local fish = game:GetService("ReplicatedStorage"):WaitForChild("Link"):WaitForChild("resources"):WaitForChild("animations"):WaitForChild("fish")
+local OLDSERVER = false
+
+if not game:GetService("ReplicatedStorage"):FindFirstChild("Link") then
+    OLDSERVER = true
+end
+
+local fish
+if OLDSERVER then
+    fish = game:GetService("ReplicatedStorage"):WaitForChild("resources"):WaitForChild("animations"):WaitForChild("fish")
+else
+    fish = game:GetService("ReplicatedStorage"):WaitForChild("Link"):WaitForChild("resources"):WaitForChild("animations"):WaitForChild("fish")
+end
 local tbl = {
 	["Desolate Deep"] = {
 		Trash = 22;

@@ -5,7 +5,6 @@
 -- Time taken: 0.185614 seconds
 
 local fish = game:GetService("ReplicatedStorage"):WaitForChild("Link"):WaitForChild("resources"):WaitForChild("animations"):WaitForChild("fish")
-local module = require(script:WaitForChild("presents"))
 local tbl = {
 	["Desolate Deep"] = {
 		Trash = 22;

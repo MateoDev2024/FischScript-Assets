@@ -390,7 +390,7 @@ local aa = {
                     j(
                         "ImageLabel",
                         {
-                            Image = "rbxassetid://8992230677",
+                            Image = "rbxassetid://75906980842042",
                             ScaleType = "Slice",
                             SliceCenter = Rect.new(Vector2.new(99, 99), Vector2.new(99, 99)),
                             AnchorPoint = Vector2.new(0.5, 0.5),
@@ -427,7 +427,7 @@ local aa = {
                     j(
                         "ImageLabel",
                         {
-                            Image = "rbxassetid://9968344105",
+                            Image = "rbxassetid://134464025832592",
                             ImageTransparency = 0.98,
                             ScaleType = Enum.ScaleType.Tile,
                             TileSize = UDim2.new(0, 128, 0, 128),
@@ -439,7 +439,7 @@ local aa = {
                     j(
                         "ImageLabel",
                         {
-                            Image = "rbxassetid://9968344227",
+                            Image = "rbxassetid://78677080289775",
                             ImageTransparency = 0.9,
                             ScaleType = Enum.ScaleType.Tile,
                             TileSize = UDim2.new(0, 128, 0, 128),
@@ -512,10 +512,10 @@ local aa = {
     [8] = function()
         local c, d, e, f, g = b(8)
         return {
-            Close = "rbxassetid://9886659671",
-            Min = "rbxassetid://9886659276",
-            Max = "rbxassetid://9886659406",
-            Restore = "rbxassetid://9886659001"
+            Close = "rbxassetid://133010172308162",
+            Min = "rbxassetid://85654093772944",
+            Max = "rbxassetid://129846574700375",
+            Restore = "rbxassetid://102131209177188"
         }
     end,
     [9] = function()

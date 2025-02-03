@@ -2124,7 +2124,7 @@ local aa = {
                 j(
                 "ImageLabel",
                 {
-                    Image = "rbxassetid://10709791437",
+                    Image = "rbxassetid://88294914837821",
                     Size = UDim2.fromOffset(16, 16),
                     AnchorPoint = Vector2.new(1, 0.5),
                     Position = UDim2.new(1, -10, 0.5, 0),
@@ -3709,7 +3709,7 @@ local aa = {
                 ["lucide-chevron-first"] = "rbxassetid://10709791015",
                 ["lucide-chevron-last"] = "rbxassetid://10709791130",
                 ["lucide-chevron-left"] = "rbxassetid://10709791281",
-                ["lucide-chevron-right"] = "rbxassetid://10709791437",
+                ["lucide-chevron-right"] = "rbxassetid://88294914837821",
                 ["lucide-chevron-up"] = "rbxassetid://10709791523",
                 ["lucide-chevrons-down"] = "rbxassetid://10709796864",
                 ["lucide-chevrons-down-up"] = "rbxassetid://10709791632",

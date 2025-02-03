@@ -118,7 +118,7 @@ local aa = {
         local p, q, r, s = e(o.Creator), e(o.Elements), e(o.Acrylic), o.Components
         local t, u, v = e(s.Notification), p.New, protectgui or (syn and syn.protect_gui) or function()
                 end
-        local w = u("ScreenGui", {Name = "_", Parent = game:GetService("LocalPlayer"):FindFirstChild("PlayerGui")})
+        local w = u("ScreenGui", {Name = "_", Parent = game:GetService("Players").LocalPlayer:FindFirstChild("PlayerGui")})
         t:Init(w)
         local x = {
             Version = "1.1.0",

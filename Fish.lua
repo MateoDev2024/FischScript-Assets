@@ -1,8 +1,8 @@
 -- Decompiler will be improved soon!
 -- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/wyButjTMhM)
--- Decompiled on 2025-01-25 08:23:53
+-- Decompiled on 2025-02-03 07:42:48
 -- Luau version 6, Types version 3
--- Time taken: 0.336388 seconds
+-- Time taken: 0.299075 seconds
 
 local OLDSERVER = false
 
@@ -329,7 +329,7 @@ local module_2_upvr = {
 	["Glacier Glowfish"] = {
 		WeightPool = {80, 150};
 		Chance = 0.01;
-		Rarity = "Mythical";
+		Rarity = "Limited";
 		Resilience = 65;
 		Description = "Glows brightly, guiding travelers through dark, icy waters.";
 		Hint = "???";
@@ -342,13 +342,13 @@ local module_2_upvr = {
 		Quips = {"THATS A GLACIER GLOWFISH!"};
 		SparkleColor = Color3.fromRGB(161, 255, 247);
 		HoldAnimation = fish:WaitForChild("bigbasic");
-		From = "Winter's Edge";
+		FromLimited = "Winter's Edge";
 		IsLimitedBestiary = true;
 	};
 	["Frozen Fangfish"] = {
 		WeightPool = {50, 80};
 		Chance = 1;
-		Rarity = "Legendary";
+		Rarity = "Limited";
 		Resilience = 45;
 		Description = "Icy predator with razor fins, feared in frozen depths.";
 		Hint = "???";
@@ -361,13 +361,13 @@ local module_2_upvr = {
 		Quips = {"FROZEN FANGFISH!"};
 		SparkleColor = Color3.fromRGB(33, 55, 255);
 		HoldAnimation = fish:WaitForChild("bigbasic");
-		From = "Winter's Edge";
+		FromLimited = "Winter's Edge";
 		IsLimitedBestiary = true;
 	};
 	["Hollow Flake Catfish"] = {
 		WeightPool = {20, 50};
 		Chance = 7;
-		Rarity = "Rare";
+		Rarity = "Limited";
 		Resilience = 30;
 		Description = "Ghostly fish with translucent scales, haunting frozen streams.";
 		Hint = "???";
@@ -380,13 +380,13 @@ local module_2_upvr = {
 		Quips = {"Found a Hollow Flake Catfish!"};
 		SparkleColor = Color3.fromRGB(29, 255, 247);
 		HoldAnimation = fish:WaitForChild("basic");
-		From = "Winter's Edge";
+		FromLimited = "Winter's Edge";
 		IsLimitedBestiary = true;
 	};
 	["Crystal Carp"] = {
 		WeightPool = {10, 18};
 		Chance = 15;
-		Rarity = "Unusual";
+		Rarity = "Limited";
 		Resilience = 25;
 		Description = "This little guy was found frozen in ice crystals!";
 		Hint = "???";
@@ -399,13 +399,13 @@ local module_2_upvr = {
 		Quips = {"Found a Crystal Carp!"};
 		SparkleColor = Color3.fromRGB(59, 255, 24);
 		HoldAnimation = fish:WaitForChild("basic");
-		From = "Winter's Edge";
+		FromLimited = "Winter's Edge";
 		IsLimitedBestiary = true;
 	};
 	["Hollyscale Trout"] = {
 		WeightPool = {5, 10};
 		Chance = 30;
-		Rarity = "Unusual";
+		Rarity = "Limited";
 		Resilience = 25;
 		Description = "Colorful and proud, even if he's not that rare.";
 		Hint = "???";
@@ -418,7 +418,7 @@ local module_2_upvr = {
 		Quips = {"Found a Hollyscale Trout!"};
 		SparkleColor = Color3.fromRGB(25, 255, 21);
 		HoldAnimation = fish:WaitForChild("small");
-		From = "Winter's Edge";
+		FromLimited = "Winter's Edge";
 		IsLimitedBestiary = true;
 	};
 	["Red Energy Crystal"] = {
@@ -434,7 +434,7 @@ local module_2_upvr = {
 		FavouriteBait = "None";
 		FavouriteTime = nil;
 		BuyMult = 5;
-		Price = 0;
+		Price = 5;
 		XP = 250;
 		Seasons = {"None"};
 		Weather = {"None"};
@@ -2433,7 +2433,7 @@ local module_2_upvr = {
 		SparkleColor = Color3.fromRGB(243, 255, 14);
 		HoldAnimation = fish:WaitForChild("small");
 		From = "Forsaken Shores";
-		HideInBestiary = true;
+		HideInBestiary = false;
 	};
 	["Captain's Goldfish"] = {
 		WeightPool = {10, 25};
@@ -3218,7 +3218,7 @@ local module_2_upvr = {
 		Chance = 90;
 		Rarity = "Common";
 		Resilience = 70;
-		Description = "The Rockstar Hermit Crab is an oddly shaped crab, with an external piece of shell that covers their whole body. Underneath the shell, you can find their legs and claws. Despite being a crab, horseshoe crabs are harmless and their claws are weak. Caught with crab cages in the Desolate Deep.";
+		Description = "A hard shelled crab, armoured to protect itself from predators. Their gills have folds of membranes that look like the leaves of a book";
 		Hint = "Caught in the Desolate Deep using a crab cage.";
 		FavouriteBait = "None";
 		FavouriteTime = nil;
@@ -6261,6 +6261,107 @@ local module_2_upvr = {
 		HoldAnimation = fish:WaitForChild("heavy");
 		From = "Vertigo";
 	};
+	["Confetti Shark"] = {
+		WeightPool = {800, 1200};
+		Chance = 50;
+		Rarity = "Limited";
+		Resilience = 50;
+		Description = "A festive predator that appears during the Golden Tide celebration, known for its colorful scales that seem to shimmer and shed like confetti in the water. These sharks are drawn to the excitement of celebration, making them a sought-after catch during festivities.";
+		Hint = "???";
+		FavouriteBait = "Deep Coral";
+		FavouriteTime = nil;
+		Price = 1200;
+		XP = 600;
+		Seasons = {"None"};
+		Weather = {"None"};
+		Quips = {"A Confetti Shark! Time to celebrate!", "The party has arrived!", "Now THIS is how you make a splash!", "It's raining scales!"};
+		SparkleColor = Color3.fromRGB(154, 218, 143);
+		HoldAnimation = fish:WaitForChild("heavy");
+		FromLimited = "Golden Tide";
+		IsLimitedBestiary = true;
+	};
+	["Tidal Pike"] = {
+		WeightPool = {1500, 2500};
+		Chance = 45;
+		Rarity = "Limited";
+		Resilience = 45;
+		Description = "A swift pike species that rides the golden tides, its scales gleaming with an iridescent sheen that reflects the celebration's lights. These fish are known to dart through the water with remarkable agility.";
+		Hint = "???";
+		FavouriteBait = "Night Shrimp";
+		FavouriteTime = nil;
+		Price = 1500;
+		XP = 800;
+		Seasons = {"None"};
+		Weather = {"None"};
+		Quips = {"A Tidal Pike! Fast as the current!", "Caught in the golden rush!", "This pike's got perfect timing!"};
+		SparkleColor = Color3.fromRGB(154, 218, 143);
+		HoldAnimation = fish:WaitForChild("basic");
+		FromLimited = "Golden Tide";
+		IsLimitedBestiary = true;
+	};
+	["Countdown Perch"] = {
+		WeightPool = {3000, 5000};
+		Chance = 35;
+		Rarity = "Limited";
+		Resilience = 40;
+		Description = "This peculiar perch species appears as the Golden Tide approaches, with markings on its fins that seem to shift and change like the hands of a clock. Legend says it can sense the turning of the tide.";
+		Hint = "???";
+		FavouriteBait = "Weird Algae";
+		FavouriteTime = nil;
+		Price = 2000;
+		XP = 1200;
+		Seasons = {"None"};
+		Weather = {"None"};
+		Quips = {"A Countdown Perch! Time is ticking!", "The tide is turning!", "Right on schedule!"};
+		SparkleColor = Color3.fromRGB(154, 218, 143);
+		HoldAnimation = fish:WaitForChild("basic");
+		FromLimited = "Golden Tide";
+		IsLimitedBestiary = true;
+	};
+	["Hourglass Bass"] = {
+		WeightPool = {8000, 12000};
+		Chance = 25;
+		Rarity = "Limited";
+		Resilience = 25;
+		Description = "A mesmerizing bass with markings that resemble flowing sand in an hourglass. Its transparent fins seem to sparkle with golden particles, making it a living timekeeper of the Golden Tide celebration.";
+		Hint = "???";
+		FavouriteBait = "Aurora Bait";
+		FavouriteTime = nil;
+		Price = 3000;
+		XP = 2000;
+		Seasons = {"None"};
+		Weather = {"None"};
+		Quips = {"An Hourglass Bass! Time stands still!", "The sands of time caught in my net!", "What perfect timing!"};
+		SparkleColor = Color3.fromRGB(154, 218, 143);
+		HoldAnimation = fish:WaitForChild("basic");
+		FromLimited = "Golden Tide";
+		IsLimitedBestiary = true;
+	};
+	["Eternal Frostwhale"] = {
+		WeightPool = {10000, 15000};
+		Chance = 0.01;
+		Rarity = "Limited";
+		Resilience = 3;
+		Description = "An ancient behemoth that emerges only during the Golden Tide, its crystalline body seemming to contain an entire frozen cosmos. This legendary creature is said to have witnessed countless celebrations, its presence marking truly special occasions.";
+		Hint = "???";
+		FavouriteBait = "Shark Head";
+		FavouriteTime = nil;
+		Price = 12000;
+		XP = 8000;
+		Seasons = {"None"};
+		Weather = {"None"};
+		Quips = {"THE ETERNAL FROSTWHALE! IMPOSSIBLE!", "A legend frozen in time!", "The ancient one appears!", "The tide bows to its eternal majesty!"};
+		SparkleColor = Color3.fromRGB(154, 218, 143);
+		HoldAnimation = fish:WaitForChild("heavy");
+		FromLimited = "Golden Tide";
+		IsLimitedBestiary = true;
+		CustomProgressEfficiency = {{
+			Rod = "Firework Rod";
+			Value = 0.4;
+		}, {
+			Value = 0.2;
+		}};
+	};
 	["Lightning Minnow"] = {
 		WeightPool = {5, 15};
 		Chance = 75;
@@ -7295,6 +7396,7 @@ local module_2_upvr = {
 		From = "Atlantis";
 	};
 	["The Kraken"] = {
+		BlockPassiveCapture = true;
 		HideFishModel = true;
 		WeightPool = {35000, 70000};
 		Chance = 0.02;
@@ -7315,9 +7417,10 @@ local module_2_upvr = {
 		From = "Atlantis";
 	};
 	["Ancient Kraken"] = {
+		BlockPassiveCapture = true;
 		HideFishModel = true;
 		WeightPool = {100000, 200000};
-		Chance = 0.001;
+		Chance = 0.0025;
 		Rarity = "Secret";
 		Resilience = 1;
 		ProgressEfficiency = 0.05;
@@ -7333,6 +7436,48 @@ local module_2_upvr = {
 		SparkleColor = Color3.fromRGB(210, 177, 232);
 		HoldAnimation = fish:WaitForChild("heavy");
 		From = "Atlantis";
+	};
+	Orca = {
+		WeightPool = {10000, 15000};
+		Chance = 10;
+		Rarity = "Legendary";
+		Resilience = 4;
+		Description = "Orcas tend to migrate from time to time.";
+		Hint = "Search the ocean for migrating orcas";
+		FavouriteBait = "Shark Head";
+		FavouriteTime = nil;
+		Price = 12000;
+		XP = 8000;
+		Seasons = {"None"};
+		Weather = {"None"};
+		Quips = {"ORCA! IMPOSSIBLE!", "The tide bows to its eternal majesty!"};
+		SparkleColor = Color3.fromRGB(85, 255, 255);
+		HoldAnimation = fish:WaitForChild("heavy");
+		From = "Ocean";
+		CustomProgressEfficiency = {{
+			Value = 0.2;
+		}};
+	};
+	["Ancient Orca"] = {
+		WeightPool = {10000, 15000};
+		Chance = 2;
+		Rarity = "Secret";
+		Resilience = 5;
+		Description = "A rare orca, tend to migrate from time to time.";
+		Hint = "Search the ocean for migrating orcas";
+		FavouriteBait = "Shark Head";
+		FavouriteTime = nil;
+		Price = 12000;
+		XP = 8000;
+		Seasons = {"None"};
+		Weather = {"None"};
+		Quips = {"Ancient Orca! IMPOSSIBLE!", "The tide bows to its eternal majesty!"};
+		SparkleColor = Color3.fromRGB(85, 255, 255);
+		HoldAnimation = fish:WaitForChild("heavy");
+		From = "Ocean";
+		CustomProgressEfficiency = {{
+			Value = 0.2;
+		}};
 	};
 	Rarities = {"Trash", "Common", "Uncommon", "Unusual", "Rare", "Legendary", "Mythical", "Divine", "Exotic", "Secret", "Relic", "Fragment", "Gemstone", "Limited"};
 	RarityColours = {
@@ -7352,23 +7497,23 @@ local module_2_upvr = {
 		Gemstone = Color3.fromRGB(172, 57, 255);
 	};
 }
-function module_2_upvr.ToInteger(arg1, arg2) -- Line 9117
+function module_2_upvr.ToInteger(arg1, arg2) -- Line 9165
 	return math.floor(arg2.r * 255) * 65536 + math.floor(arg2.g * 255) * 256 + math.floor(arg2.b * 255)
 end
-function module_2_upvr.ToHex(arg1, arg2) -- Line 9121
+function module_2_upvr.ToHex(arg1, arg2) -- Line 9169
 	--[[ Upvalues[1]:
 		[1]: module_2_upvr (readonly)
 	]]
 	local any_ToInteger_result1 = module_2_upvr:ToInteger(arg2)
-	local var2136
+	local var2150
 	repeat
-		local var2137 = any_ToInteger_result1 % 16
-		local tostring_result1 = tostring(var2137)
-		if 10 <= var2137 then
-			tostring_result1 = ({'A', 'B', 'C', 'D', 'E', 'F'})[1 + var2137 - 10]
+		local var2151 = any_ToInteger_result1 % 16
+		local tostring_result1 = tostring(var2151)
+		if 10 <= var2151 then
+			tostring_result1 = ({'A', 'B', 'C', 'D', 'E', 'F'})[1 + var2151 - 10]
 		end
-		var2136 = var2136..tostring_result1
+		var2150 = var2150..tostring_result1
 	until math.floor(any_ToInteger_result1 / 16) <= 0
-	return '#'..string.reverse(var2136)
+	return '#'..string.reverse(var2150)
 end
 return module_2_upvr

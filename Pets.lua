@@ -1,6 +1,6 @@
 return {
     {
-        Name = "{	Doggy",
+        Name = "Doggy",
         Rarity = "Common",
         Stats = {
             Bubbles = 1,

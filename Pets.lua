@@ -1218,6 +1218,36 @@ return {
         },
     },
     {
+        Name = "Midas",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 1325,
+            Coins = 1850,
+            Gems = 25,
+        },
+        Images = {
+            Normal = "rbxassetid://89307911586165",
+            Shiny = "rbxassetid://80438490583372",
+            Mythic = "rbxassetid://115132249249329",
+            ["Shiny Mythic"] = "rbxassetid://128269931598351",
+        },
+    },
+    {
+        Name = "Patronus",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 2300,
+            Coins = 3250,
+            Gems = 50,
+        },
+        Images = {
+            Normal = "rbxassetid://94392748552254",
+            Shiny = "rbxassetid://138338380491055",
+            Mythic = "rbxassetid://73085088086641",
+            ["Shiny Mythic"] = "rbxassetid://121702391632093",
+        },
+    },
+    {
         Name = "Dowodle",
         Rarity = "Legendary",
         Stats = {
@@ -1432,6 +1462,117 @@ return {
             Shiny = "rbxassetid://91266745275312",
             Mythic = "rbxassetid://73135911297429",
             ["Shiny Mythic"] = "rbxassetid://88763393448729",
+        },
+    },
+    {
+        Name = "Bow Bunny",
+        Rarity = "Common",
+        Stats = {
+            Bubbles = 55,
+            Coins = 70,
+            Gems = 1.5,
+        },
+        Images = {
+            Normal = "rbxassetid://101840367549334",
+            Shiny = "rbxassetid://81878017289027",
+        },
+    },
+    {
+        Name = "Easter Egg",
+        Rarity = "Unique",
+        Stats = {
+            Bubbles = 100,
+            Coins = 120,
+            Gems = 2.2,
+        },
+        Images = {
+            Normal = "rbxassetid://97739272143723",
+            Shiny = "rbxassetid://100300586984302",
+        },
+    },
+    {
+        Name = "Flying Bunny",
+        Rarity = "Epic",
+        Stats = {
+            Bubbles = 115,
+            Coins = 125,
+        },
+        Images = {
+            Normal = "rbxassetid://132767819077599",
+            Shiny = "rbxassetid://130968037860846",
+        },
+    },
+    {
+        Name = "Easter Serpent",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 550,
+            Coins = 600,
+            Gems = 10,
+        },
+        Images = {
+            Normal = "rbxassetid://98938067959398",
+            Shiny = "rbxassetid://125443598339397",
+            Mythic = "rbxassetid://128879026211802",
+            ["Shiny Mythic"] = "rbxassetid://114527045780663",
+        },
+    },
+    {
+        Name = "Dualcorn",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 1200,
+            Coins = 1550,
+            Gems = 21,
+        },
+        Images = {
+            Normal = "rbxassetid://101605071887404",
+            Shiny = "rbxassetid://93628728332738",
+            Mythic = "rbxassetid://82858029797469",
+            ["Shiny Mythic"] = "rbxassetid://85766838746496",
+        },
+    },
+    {
+        Name = "Holy Egg",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 1325,
+            Coins = 1850,
+            Gems = 25,
+        },
+        Images = {
+            Normal = "rbxassetid://122905176769988",
+            Shiny = "rbxassetid://96405481047772",
+            Mythic = "rbxassetid://98349954814824",
+            ["Shiny Mythic"] = "rbxassetid://94212506544352",
+        },
+    },
+    {
+        Name = "Godly Gem",
+        Rarity = "Secret",
+        Stats = {
+            Bubbles = 3200,
+            Coins = 3750,
+            Gems = 70,
+        },
+        Images = {
+            Normal = "rbxassetid://135660573331096",
+            Shiny = "rbxassetid://131352042214414",
+            Mythic = "rbxassetid://79962120420648",
+            ["Shiny Mythic"] = "rbxassetid://126464346470111",
+        },
+    },
+    {
+        Name = "Dementor",
+        Rarity = "Secret",
+        Stats = {
+            Bubbles = 3750,
+            Coins = 4250,
+            Gems = 85,
+        },
+        Images = {
+            Normal = "rbxassetid://83620183601359",
+            Shiny = "rbxassetid://70395978006731",
         },
     },
     {

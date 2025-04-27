@@ -916,6 +916,76 @@ return {
         },
     },
     {
+        Name = "Bunnnny",
+        Rarity = "Common",
+        Stats = {
+            Bubbles = 135,
+            Coins = 155,
+            Gems = 2.25,
+        },
+        Images = {
+            Normal = "rbxassetid://110946352972474",
+            Shiny = "rbxassetid://93248525845837",
+        },
+    },
+    {
+        Name = "Long Kitty",
+        Rarity = "Rare",
+        Stats = {
+            Bubbles = 210,
+            Coins = 270,
+        },
+        Images = {
+            Normal = "rbxassetid://119634181104666",
+            Shiny = "rbxassetid://110282638403474",
+        },
+    },
+    {
+        Name = "DOOF",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 1350,
+            Coins = 1900,
+            Gems = 18,
+        },
+        Images = {
+            Normal = "rbxassetid://84912767727395",
+            Shiny = "rbxassetid://93728970753640",
+            Mythic = "rbxassetid://81945865269343",
+            ["Shiny Mythic"] = "rbxassetid://100771542732964",
+        },
+    },
+    {
+        Name = "ROUND",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 1500,
+            Coins = 1900,
+            Gems = 22,
+        },
+        Images = {
+            Normal = "rbxassetid://137370752121359",
+            Shiny = "rbxassetid://123907106583225",
+            Mythic = "rbxassetid://114673821025917",
+            ["Shiny Mythic"] = "rbxassetid://74941803085231",
+        },
+    },
+    {
+        Name = "Silly Doggy :)",
+        Rarity = "Secret",
+        Stats = {
+            Bubbles = 2700,
+            Coins = 3250,
+            Gems = 50,
+        },
+        Images = {
+            Normal = "rbxassetid://136400177227573",
+            Shiny = "rbxassetid://91838639140469",
+            Mythic = "rbxassetid://134489345601468",
+            ["Shiny Mythic"] = "rbxassetid://80021338472854",
+        },
+    },
+    {
         Name = "Enlightened Kitty",
         Rarity = "Rare",
         Stats = {
@@ -1109,9 +1179,9 @@ return {
         Name = "King Soul",
         Rarity = "Legendary",
         Stats = {
-            Bubbles = 1500,
-            Coins = 2200,
-            Gems = 35,
+            Bubbles = 2225,
+            Coins = 3100,
+            Gems = 45,
         },
         Images = {
             Normal = "rbxassetid://91911264068662",
@@ -1271,6 +1341,32 @@ return {
         Images = {
             Normal = "rbxassetid://131408473856024",
             Shiny = "rbxassetid://79852109630604",
+        },
+    },
+    {
+        Name = "Enraged Phoenix",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 120,
+            Coins = 120,
+            Gems = 1.6,
+        },
+        Images = {
+            Normal = "rbxassetid://107570455419383",
+            Shiny = "rbxassetid://113743669461335",
+        },
+    },
+    {
+        Name = "Electra Hydra",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 130,
+            Coins = 140,
+            Gems = 2,
+        },
+        Images = {
+            Normal = "rbxassetid://135131712275131",
+            Shiny = "rbxassetid://138488373164398",
         },
     },
     {
@@ -1536,9 +1632,9 @@ return {
         Name = "Holy Egg",
         Rarity = "Legendary",
         Stats = {
-            Bubbles = 1325,
-            Coins = 1850,
-            Gems = 25,
+            Bubbles = 1425,
+            Coins = 2200,
+            Gems = 28,
         },
         Images = {
             Normal = "rbxassetid://122905176769988",
@@ -1573,6 +1669,106 @@ return {
         Images = {
             Normal = "rbxassetid://83620183601359",
             Shiny = "rbxassetid://70395978006731",
+            Mythic = "rbxassetid://90646637371519",
+            ["Shiny Mythic"] = "rbxassetid://126118689750116",
+        },
+    },
+    {
+        Name = "Bronze Bunny",
+        Rarity = "Common",
+        Stats = {
+            Bubbles = 60,
+            Coins = 75,
+            Gems = 1.8,
+        },
+        Images = {
+            Normal = "rbxassetid://113213527955425",
+            Shiny = "rbxassetid://83519311440715",
+        },
+    },
+    {
+        Name = "Silver Fox",
+        Rarity = "Unique",
+        Stats = {
+            Bubbles = 110,
+            Coins = 125,
+            Gems = 2.5,
+        },
+        Images = {
+            Normal = "rbxassetid://122444893544859",
+            Shiny = "rbxassetid://100728204642259",
+        },
+    },
+    {
+        Name = "Golden Dragon",
+        Rarity = "Epic",
+        Stats = {
+            Bubbles = 125,
+            Coins = 140,
+        },
+        Images = {
+            Normal = "rbxassetid://116610852449123",
+            Shiny = "rbxassetid://129336435638666",
+        },
+    },
+    {
+        Name = "Diamond Serpent",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 600,
+            Coins = 625,
+            Gems = 12,
+        },
+        Images = {
+            Normal = "rbxassetid://72409952288287",
+            Shiny = "rbxassetid://133778634002878",
+            Mythic = "rbxassetid://129721201697549",
+            ["Shiny Mythic"] = "rbxassetid://76876858250583",
+        },
+    },
+    {
+        Name = "Diamond Hexarium",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 1250,
+            Coins = 1600,
+            Gems = 23,
+        },
+        Images = {
+            Normal = "rbxassetid://136410802303648",
+            Shiny = "rbxassetid://82003997046134",
+            Mythic = "rbxassetid://110459647433098",
+            ["Shiny Mythic"] = "rbxassetid://70570552386283",
+        },
+    },
+    {
+        Name = "King Pufferfish",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 1475,
+            Coins = 2300,
+            Gems = 32,
+        },
+        Images = {
+            Normal = "rbxassetid://78891298142055",
+            Shiny = "rbxassetid://135162856369456",
+            Mythic = "rbxassetid://135672381979356",
+            ["Shiny Mythic"] = "rbxassetid://123241517588205",
+        },
+    },
+    {
+        Name = "Royal Trophy",
+        Rarity = "Secret",
+        Stats = {
+            Bubbles = 3000,
+            Coins = 3500,
+            Gems = 65,
+        },
+        Images = {
+            Normal = "rbxassetid://102016856452664",
+            Shiny = "rbxassetid://103886175167440",
+            Mythic = "rbxassetid://71734612734368",
+            ["Shiny Mythic"] = "rbxassetid://87743556079640",
         },
     },
     {
@@ -1627,6 +1823,103 @@ return {
         Images = {
             Normal = "rbxassetid://84021466522802",
             Shiny = "rbxassetid://139125490541605",
+        },
+    },
+    {
+        Name = "Elite Challenger",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 2350,
+            Coins = 3200,
+            Gems = 50,
+        },
+        Images = {
+            Normal = "rbxassetid://88302006299732",
+            Shiny = "rbxassetid://87918443374697",
+        },
+    },
+    {
+        Name = "Elite Soul",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 3000,
+            Coins = 3500,
+            Gems = 65,
+        },
+        Images = {
+            Normal = "rbxassetid://76138184593329",
+            Shiny = "rbxassetid://124666781440286",
+            Mythic = "rbxassetid://79208468612615",
+            ["Shiny Mythic"] = "rbxassetid://74538893448634",
+        },
+    },
+    {
+        Name = "Competitor Doggy",
+        Rarity = "Rare",
+        Stats = {
+            Bubbles = 40,
+            Coins = 20,
+        },
+        Images = {
+            Normal = "rbxassetid://127208677869819",
+            Shiny = "rbxassetid://89651347381678",
+        },
+    },
+    {
+        Name = "Golden Golem",
+        Rarity = "Epic",
+        Stats = {
+            Bubbles = 195,
+            Coins = 265,
+        },
+        Images = {
+            Normal = "rbxassetid://138026763781707",
+            Shiny = "rbxassetid://132684362621406",
+        },
+    },
+    {
+        Name = "Parasite",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 980,
+            Coins = 1250,
+            Gems = 18,
+        },
+        Images = {
+            Normal = "rbxassetid://74651112943866",
+            Shiny = "rbxassetid://115141336334034",
+            Mythic = "rbxassetid://106984089489667",
+            ["Shiny Mythic"] = "rbxassetid://82411303923037",
+        },
+    },
+    {
+        Name = "Starlight",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 1700,
+            Coins = 2350,
+            Gems = 25,
+        },
+        Images = {
+            Normal = "rbxassetid://87591100580978",
+            Shiny = "rbxassetid://111120928324007",
+            Mythic = "rbxassetid://116635719928804",
+            ["Shiny Mythic"] = "rbxassetid://92718980367388",
+        },
+    },
+    {
+        Name = "Overseer",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 2300,
+            Coins = 3150,
+            Gems = 50,
+        },
+        Images = {
+            Normal = "rbxassetid://103066660441260",
+            Shiny = "rbxassetid://135282468413670",
+            Mythic = "rbxassetid://101438224606618",
+            ["Shiny Mythic"] = "rbxassetid://111630848456135",
         },
     },
 }

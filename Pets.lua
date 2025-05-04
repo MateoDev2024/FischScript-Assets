@@ -1192,9 +1192,9 @@ return {
         Name = "Demonic Dogcat",
         Rarity = "Legendary",
         Stats = {
-            Bubbles = 1300,
-            Coins = 1800,
-            Gems = 22,
+            Bubbles = 2225,
+            Coins = 3100,
+            Gems = 45,
         },
         Images = {
             Normal = "rbxassetid://139629744666029",
@@ -1920,6 +1920,427 @@ return {
             Shiny = "rbxassetid://135282468413670",
             Mythic = "rbxassetid://101438224606618",
             ["Shiny Mythic"] = "rbxassetid://111630848456135",
+        },
+    },
+    {
+        Name = "Game Doggy",
+        Rarity = "Common",
+        Stats = {
+            Bubbles = 1,
+            Tickets = 1.1,
+        },
+        Images = {
+            Normal = "rbxassetid://90643252257374",
+            Shiny = "rbxassetid://107491835763520",
+        },
+    },
+    {
+        Name = "Gamer Boi",
+        Rarity = "Common",
+        Stats = {
+            Bubbles = 1,
+            Tickets = 1.5,
+        },
+        Images = {
+            Normal = "rbxassetid://126142834628447",
+            Shiny = "rbxassetid://72474674070189",
+        },
+    },
+    {
+        Name = "Queen of Hearts",
+        Rarity = "Rare",
+        Stats = {
+            Bubbles = 2,
+            Tickets = 2,
+        },
+        Images = {
+            Normal = "rbxassetid://129024054398763",
+            Shiny = "rbxassetid://130641327270296",
+        },
+    },
+    {
+        Name = "Mining Doggy",
+        Rarity = "Common",
+        Stats = {
+            Bubbles = 24,
+            Tickets = 20,
+        },
+        Images = {
+            Normal = "rbxassetid://122503117196490",
+            Shiny = "rbxassetid://79474133380060",
+        },
+    },
+    {
+        Name = "Mining Bat",
+        Rarity = "Unique",
+        Stats = {
+            Bubbles = 45,
+            Tickets = 25,
+        },
+        Images = {
+            Normal = "rbxassetid://112786499042328",
+            Shiny = "rbxassetid://119531912421769",
+        },
+    },
+    {
+        Name = "Cave Mole",
+        Rarity = "Rare",
+        Stats = {
+            Bubbles = 75,
+            Tickets = 40,
+        },
+        Images = {
+            Normal = "rbxassetid://93047026359490",
+            Shiny = "rbxassetid://80686832114260",
+        },
+    },
+    {
+        Name = "Ore Golem",
+        Rarity = "Epic",
+        Stats = {
+            Bubbles = 135,
+            Tickets = 70,
+        },
+        Images = {
+            Normal = "rbxassetid://83559948607250",
+            Shiny = "rbxassetid://78142132254185",
+        },
+    },
+    {
+        Name = "Crystal Unicorn",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 480,
+            Tickets = 180,
+            Gems = 6,
+        },
+        Images = {
+            Normal = "rbxassetid://80913268248921",
+            Shiny = "rbxassetid://80328115583771",
+            Mythic = "rbxassetid://100717636189777",
+            ["Shiny Mythic"] = "rbxassetid://76169254234638",
+        },
+    },
+    {
+        Name = "Stone Gargoyle",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 785,
+            Tickets = 320,
+            Gems = 9,
+        },
+        Images = {
+            Normal = "rbxassetid://96447056752701",
+            Shiny = "rbxassetid://118449202987348",
+            Mythic = "rbxassetid://79313909775478",
+            ["Shiny Mythic"] = "rbxassetid://136984425928222",
+        },
+    },
+    {
+        Name = "Robo Kitty",
+        Rarity = "Common",
+        Stats = {
+            Bubbles = 65,
+            Tickets = 75,
+            Gems = 1.8,
+        },
+        Images = {
+            Normal = "rbxassetid://126153630042093",
+            Shiny = "rbxassetid://126245004235143",
+        },
+    },
+    {
+        Name = "Martian Kitty",
+        Rarity = "Unique",
+        Stats = {
+            Bubbles = 115,
+            Tickets = 125,
+            Gems = 2.5,
+        },
+        Images = {
+            Normal = "rbxassetid://95865916555707",
+            Shiny = "rbxassetid://128126875255924",
+        },
+    },
+    {
+        Name = "Cyber Wolf",
+        Rarity = "Epic",
+        Stats = {
+            Bubbles = 130,
+            Tickets = 140,
+        },
+        Images = {
+            Normal = "rbxassetid://112519144548644",
+            Shiny = "rbxassetid://109676694882054",
+        },
+    },
+    {
+        Name = "Cyborg Phoenix",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 630,
+            Tickets = 400,
+            Gems = 12,
+        },
+        Images = {
+            Normal = "rbxassetid://105920543929343",
+            Shiny = "rbxassetid://135337380770193",
+            Mythic = "rbxassetid://102380696723944",
+            ["Shiny Mythic"] = "rbxassetid://88293167244219",
+        },
+    },
+    {
+        Name = "Space Invader",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 1325,
+            Tickets = 850,
+            Gems = 23,
+        },
+        Images = {
+            Normal = "rbxassetid://119797844957100",
+            Shiny = "rbxassetid://96247663419252",
+            Mythic = "rbxassetid://120374926099633",
+            ["Shiny Mythic"] = "rbxassetid://79347814813084",
+        },
+    },
+    {
+        Name = "Bionic Shard",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 1550,
+            Tickets = 1900,
+            Gems = 32,
+        },
+        Images = {
+            Normal = "rbxassetid://113926773562723",
+            Shiny = "rbxassetid://99439972902415",
+            Mythic = "rbxassetid://91891367979946",
+            ["Shiny Mythic"] = "rbxassetid://112797928273116",
+        },
+    },
+    {
+        Name = "Mech Robot",
+        Rarity = "Secret",
+        Stats = {
+            Bubbles = 3000,
+            Tickets = 3500,
+            Gems = 65,
+        },
+        Images = {
+            Normal = "rbxassetid://130370519146743",
+            Shiny = "rbxassetid://119284114227733",
+            Mythic = "rbxassetid://89902348379892",
+            ["Shiny Mythic"] = "rbxassetid://129610761607639",
+        },
+    },
+    {
+        Name = "Sleepy Bunny",
+        Rarity = "Rare",
+        Stats = {
+            Bubbles = 40,
+            Coins = 20,
+        },
+        Images = {
+            Normal = "rbxassetid://116722260024080",
+            Shiny = "rbxassetid://80968988528542",
+        },
+    },
+    {
+        Name = "Starry Lamb",
+        Rarity = "Epic",
+        Stats = {
+            Bubbles = 195,
+            Coins = 265,
+        },
+        Images = {
+            Normal = "rbxassetid://129047181207186",
+            Shiny = "rbxassetid://115966365794799",
+        },
+    },
+    {
+        Name = "Moon Deer",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 1000,
+            Coins = 1250,
+            Gems = 22,
+        },
+        Images = {
+            Normal = "rbxassetid://120225123806435",
+            Shiny = "rbxassetid://90255821847608",
+            Mythic = "rbxassetid://130216478201148",
+            ["Shiny Mythic"] = "rbxassetid://127432657813726",
+        },
+    },
+    {
+        Name = "Nebula",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 1850,
+            Coins = 2450,
+            Gems = 35,
+        },
+        Images = {
+            Normal = "rbxassetid://131132006061222",
+            Shiny = "rbxassetid://118971288564521",
+            Mythic = "rbxassetid://123429576754180",
+            ["Shiny Mythic"] = "rbxassetid://85080452280244",
+        },
+    },
+    {
+        Name = "Dusk",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 975,
+            Tickets = 1300,
+            Gems = 15.5,
+        },
+        Images = {
+            Normal = "rbxassetid://89066931313193",
+            Shiny = "rbxassetid://126914744556808",
+        },
+    },
+    {
+        Name = "Dawn",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 1050,
+            Tickets = 1400,
+            Gems = 18,
+        },
+        Images = {
+            Normal = "rbxassetid://129676752705804",
+            Shiny = "rbxassetid://115221531612569",
+        },
+    },
+    {
+        Name = "Moonlight",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 1325,
+            Tickets = 850,
+            Gems = 23,
+        },
+        Images = {
+            Normal = "rbxassetid://105329662848956",
+            Shiny = "rbxassetid://89009838742526",
+            Mythic = "rbxassetid://89913946001230",
+            ["Shiny Mythic"] = "rbxassetid://101837907789199",
+        },
+    },
+    {
+        Name = "Luminosity",
+        Rarity = "Secret",
+        Stats = {
+            Bubbles = 3050,
+            Tickets = 3550,
+            Gems = 70,
+        },
+        Images = {
+            Normal = "rbxassetid://124773783852927",
+            Shiny = "rbxassetid://132609819087086",
+            Mythic = "rbxassetid://92067317285583",
+            ["Shiny Mythic"] = "rbxassetid://131286750513616",
+        },
+    },
+    {
+        Name = "Magmas",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 1700,
+            Tickets = 1800,
+            Gems = 32,
+        },
+        Images = {
+            Normal = "rbxassetid://125225288285850",
+            Shiny = "rbxassetid://83592309171830",
+            Mythic = "rbxassetid://80649552245148",
+            ["Shiny Mythic"] = "rbxassetid://107724917918022",
+        },
+    },
+    {
+        Name = "Dragon Plushie",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 1850,
+            Tickets = 1900,
+            Gems = 35,
+        },
+        Images = {
+            Normal = "rbxassetid://136544071549548",
+            Shiny = "rbxassetid://92576218287248",
+            Mythic = "rbxassetid://126021795170370",
+            ["Shiny Mythic"] = "rbxassetid://82801890357724",
+        },
+    },
+    {
+        Name = "Dice Split",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 1750,
+            Tickets = 1800,
+            Gems = 32,
+        },
+        Images = {
+            Normal = "rbxassetid://140212979301756",
+            Shiny = "rbxassetid://128103253336307",
+            Mythic = "rbxassetid://114639637803307",
+            ["Shiny Mythic"] = "rbxassetid://115097115638781",
+        },
+    },
+    {
+        Name = "Fancy Demon",
+        Rarity = "Rare",
+        Stats = {
+            Bubbles = 40,
+            Tickets = 20,
+        },
+        Images = {
+            Normal = "rbxassetid://119579347444394",
+            Shiny = "rbxassetid://118660693089214",
+        },
+    },
+    {
+        Name = "Happy Dice",
+        Rarity = "Epic",
+        Stats = {
+            Bubbles = 195,
+            Tickets = 130,
+        },
+        Images = {
+            Normal = "rbxassetid://123053322701010",
+            Shiny = "rbxassetid://111037834995435",
+        },
+    },
+    {
+        Name = "Game Master",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 1850,
+            Tickets = 1900,
+            Gems = 35,
+        },
+        Images = {
+            Normal = "rbxassetid://120685980526060",
+            Shiny = "rbxassetid://126718995367861",
+            Mythic = "rbxassetid://108919908305331",
+            ["Shiny Mythic"] = "rbxassetid://136491378615234",
+        },
+    },
+    {
+        Name = "Jackpot",
+        Rarity = "Legendary",
+        Stats = {
+            Bubbles = 3050,
+            Tickets = 3550,
+            Gems = 70,
+        },
+        Images = {
+            Normal = "rbxassetid://127110172492221",
+            Shiny = "rbxassetid://116720210619976",
+            Mythic = "rbxassetid://124077171526182",
+            ["Shiny Mythic"] = "rbxassetid://103074564849082",
         },
     },
 }
